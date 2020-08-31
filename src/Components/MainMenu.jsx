@@ -56,7 +56,7 @@ class MainMenu extends React.Component {
         </div>
 
         {this.state.subMenuCategory.length > 0 && (
-          <div className="col-lg-8">
+          <div className="col-lg-8 menutable">
             <h1>Items in Category: {this.state.subMenuCategory}</h1>
             <table>
               <tr>

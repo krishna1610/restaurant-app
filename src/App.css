@@ -4,3 +4,11 @@ th,
 tr {
     border: black 1px solid;
 }
+
+.menutable {
+    margin-top: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
